@@ -23,7 +23,7 @@ div#memory_board > div{
 	background-position: center;
 	background-size: cover;
 	width:71px;
-	box-shadow: 0px 0px 4px 1px #999;
+	box-shadow: 0px 0px 4px 1px #d4092d;
 	height:71px;
 	float:left;
 	margin:10px;
@@ -92,9 +92,9 @@ function memoryFlipTile(tile,val){
 				    // Flip the 2 tiles back over
 				    var tile_1 = document.getElementById(memory_tile_ids[0]);
 				    var tile_2 = document.getElementById(memory_tile_ids[1]);
-				    tile_1.style.background = 'url(./tile_bg.png) no-repeat ';
+				    tile_1.style.background = '#d4092d';
             	    tile_1.innerHTML = "";
-				    tile_2.style.background = 'url(./tile_bg.png) no-repeat';
+				    tile_2.style.background = '#d4092d';
             	    tile_2.innerHTML = "";
 				    // Clear both arrays
 				    memory_values = [];
